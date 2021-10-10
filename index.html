@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+    <style>
+        body {
+            background-color: darkseagreen;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }  
+        .flex-container {
+            background-color: blue;
+            display: flex;
+            justify-content: space-around;
+        }
+        .flex-container > img {
+            margin: 10px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h3>Name - Shobhit Kaothalkar</h3>
+    <h3>Roll No. - 2006139</h3>
+    <hr>
+    <h1>Flex With Images</h1>
+    <p>The Flexible Box Layout Module, makes it easier to design flexible responsive layout structure without using float or positioning.<br><br>
+        Here we have a div with "flex-container" class which sets the display property to "flex". Here are 5 images of nature in a flex container. The images are equally spaced by setting the justify-content property to "space-around".</p>
+
+    <div class="flex-container">
+        <img src="https://source.unsplash.com/250x250/?waterfall" alt="image 1">
+        <img src="https://source.unsplash.com/250x250/?forest" alt="image 2">
+        <img src="https://source.unsplash.com/250x250/?mountain" alt="image 3">
+        <img src="https://source.unsplash.com/250x250/?desert" alt="image 4">
+        <img src="https://source.unsplash.com/250x250/?river" alt="image 5">
+    </div>
+    <hr>
+    <a href="#"><button>View Code</button></a>
+</body>
+</html>
